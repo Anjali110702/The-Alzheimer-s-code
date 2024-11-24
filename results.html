@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Docking Results</title>
+    <link rel="stylesheet" href="rstyles.css" />
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Retrieve the selected ligand from localStorage
+        const selectedLigand = localStorage.getItem("selectedLigand");
+
+        // Define content for each ligand
+        const ligandData = {
+          ligand1: {
+            image: "docking_img.png",
+            score: "-8.2 kcal/mol",
+            analysis: "dock_analysis.jpg",
+            description: "Docking results for Ligand 1.",
+          },
+          ligand2: {
+            image: "ligand2_docked.jpg",
+            score: "-7.5 kcal/mol",
+            analysis: "ligand2_analysis.jpg",
+            description: "Docking results for Ligand 2.",
+          },
+          ligand3: {
+            image: "ligand3_docked.jpg",
+            score: "-6.8 kcal/mol",
+            analysis: "ligand3_analysis.jpg",
+            description: "Docking results for Ligand 3.",
+          },
+        };
+
+        // Dynamically update content based on the selected ligand
+        if (ligandData[selectedLigand]) {
+          document.getElementById("description").textContent =
+            ligandData[selectedLigand].description;
+          document.getElementById("dockingImage").src =
+            ligandData[selectedLigand].image;
+          document.getElementById("score").textContent = "Docking Analysis";
+          document.getElementById("analysisImage").src =
+            ligandData[selectedLigand].analysis;
+        } else {
+          document.getElementById("description").textContent =
+            "Invalid ligand selected.";
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Docking Results</h1>
+      <p id="description">Loading...</p>
+
+      <!-- Docked Protein Image -->
+      <div class="image-container">
+        <img id="dockingImage" alt="Docked Protein" class="image" />
+      </div>
+
+      <!-- Docking Score -->
+      <p id="score"></p>
+
+      <!-- Analysis Image -->
+      <div class="image-container">
+        <img id="analysisImage" alt="Score Analysis" class="image" />
+      </div>
+
+      <!-- Back Link -->
+      <a href="index.html" class="back-link">Back to Docking Tool</a>
+    </div>
+  </body>
+</html>

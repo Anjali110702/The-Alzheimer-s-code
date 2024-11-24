@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protein-Ligand Docking</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      function submitForm() {
+        const ligand = document.getElementById("ligand").value;
+
+        // Store the selected ligand in localStorage for use on the results page
+        localStorage.setItem("selectedLigand", ligand);
+
+        // Redirect to the results page
+        window.location.href = "results.html";
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Landing Page -->
+    <div class="container">
+      <h1>Protein-Ligand Docking Tool</h1>
+      <form onsubmit="event.preventDefault(); submitForm();">
+        <label for="protein">Protein Name:</label>
+        <input
+          type="text"
+          id="protein"
+          name="protein"
+          value="Amyloid Beta"
+          readonly
+        />
+
+        <label for="ligand">Choose a Ligand:</label>
+        <select id="ligand" name="ligand" required>
+          <option value="" disabled selected>Select a ligand</option>
+          <option value="ligand1">Troriluzole</option>
+          <option value="ligand2">GV-971</option>
+          <option value="ligand3">Blarcamesine</option>
+        </select>
+
+        <button type="submit">Docking</button>
+      </form>
+    </div>
+  </body>
+</html>
