@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Molecular Docking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-image: url(bg4.jpg);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #c9ccd9;
+        }
+        p {
+            font-size: 1.1em;
+            margin: 10px 0 20px;
+            color: #200680;
+        }
+        .video-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .video-card {
+            background: #dbdce2;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 350px;
+            transition: transform 0.3s;
+        }
+        .video-card:hover {
+            transform: scale(1.05);
+        }
+        video {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+        .description {
+            padding: 15px;
+        }
+        .description h3 {
+            font-size: 1.5em;
+            color: #050b71;
+            margin-bottom: 10px;
+        }
+        h6{
+            font-size: 1.1em;
+            margin: 10px 0 20px;
+            color: #eaeaed;  
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Molecular Docking</h1>
+        <h6>Learn about the essential steps in the molecular docking process, including protein preparation, ligand preparation, and docking analysis.</h6>
+
+        <div class="video-section">
+            <!-- Video 1: Protein Preparation -->
+            <div class="video-card">
+                <video controls>
+                    <source src="Protein_Demo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Protein Preparation</h3>
+                    <p>This video demonstrates how to prepare proteins for docking by removing unnecessary molecules and optimizing the structure.</p>
+                </div>
+            </div>
+
+            <!-- Video 2: Ligand Preparation -->
+            <div class="video-card">
+                <video controls>
+                    <source src="Ligand_Demo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Ligand Preparation</h3>
+                    <p>Learn how to prepare ligands, including conformational analysis and energy minimization, for successful docking.</p>
+                </div>
+            </div>
+
+            <!-- Video 3: Molecular Docking -->
+            <div class="video-card">
+                <video controls>
+                    <source src="Docking_Demo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Molecular Docking</h3>
+                    <p>Understand the molecular docking process, where ligands interact with proteins to predict binding affinities and poses.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
