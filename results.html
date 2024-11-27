@@ -91,30 +91,34 @@
             analysis: "Demo/Ligand1/dock_analysis.jpg",
             description: "Docking results for Troriluzole Ligand.",
             pdbFile: "Demo/Ligand1/out.pdb",
+            report: "Demo/Ligand1/Report.pdf",
           },
           ligand2: {
             image: "Demo/Ligand2/dock_img.png",
             analysis: "Demo/Ligand2/ligand2_analysis.png",
-            description: "Docking results for Ligand 2.",
+            description: "Docking results for Donepezil Ligand.",
             pdbFile: "Demo/Ligand2/out.pdb",
+            report: "Demo/Ligand2/Report.pdf",
           },
           ligand3: {
             image: "Demo/Ligand3/dock_img3.png",
             analysis: "Demo/Ligand3/ligand3_analysis.png",
-            description: "Docking results for Ligand 3.",
+            description: "Docking results for Galanathamine Ligand.",
             pdbFile: "Demo/Ligand3/out.pdb",
+            report: "Demo/Ligand3/Report.pdf",
           },
           ligand4: {
             image: "Demo/Ligand4/dock_img4.png",
             analysis: "Demo/Ligand4/ligand4_analysis.png",
-            description: "Docking results for Ligand 3.",
+            description: "Docking results for Memantine Ligand.",
             pdbFile: "Demo/Ligand4/out.pdb",
+            report: "Demo/Ligand4/Report.pdf",
           },
           ligand5: {
             image: "Demo/Ligand5/dock_img5.png",
             analysis: "Demo/Ligand5/ligand5_analysis.png",
-            description: "Docking results for Ligand 3.",
-            pdbFile: "Demo/Ligand5/out.pdb",
+            description: "Docking results for Rivastigmine Ligand.",
+            report: "Demo/Ligand5/Report.pdf",
           },
         };
 
@@ -126,6 +130,7 @@
           document.getElementById("dockingImage").src = ligand.image;
           document.getElementById("score").textContent = "Docking Analysis";
           document.getElementById("analysisImage").src = ligand.analysis;
+          document.getElementById("downloadReport").href = ligand.report || "#";
 
           // Initialize 3D viewer for the ligand
           const viewer = $3Dmol.createViewer("viewer", {
@@ -217,6 +222,14 @@
       <!-- Docked Protein Image -->
       <div class="image-container">
         <img id="dockingImage" alt="Docked Protein" class="image" />
+        <a
+          id="downloadReport"
+          href="#"
+          download="Docking_Report.pdf"
+          class="back-link"
+        >
+          Download Docking Report
+        </a>
       </div>
 
       <!-- Docking Score -->
@@ -237,7 +250,6 @@
         <button id="closeBtn">Close</button>
       </div>
 
-      <!-- Overlay -->
       <div id="overlay"></div>
       <br />
       <!-- More Information Link -->
