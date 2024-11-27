@@ -1,0 +1,441 @@
+MODEL 1
+REMARK VINA RESULT:      -5.6      0.000      0.000
+REMARK  Name = C:\Users\tendu\OneDrive\Desktop\Protein\Rivastigmine.pdb
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _12
+REMARK    2  A    between atoms: _1  and  _16
+REMARK    3  A    between atoms: _3  and  _5
+REMARK    4  A    between atoms: _3  and  _10
+REMARK    5  A    between atoms: _3  and  _11
+REMARK    6  A    between atoms: _4  and  _15
+REMARK    7  A    between atoms: _4  and  _17
+REMARK    8  A    between atoms: _5  and  _6
+REMARK    9  A    between atoms: _5  and  _7
+REMARK   10  A    between atoms: _15  and  _18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      8  C   UNL     1      13.434  85.409  95.830  0.00  0.00    +0.134 A 
+ATOM      9  C   UNL     1      13.282  85.622  97.182  0.00  0.00    +0.046 A 
+ATOM     10  C   UNL     1      12.332  84.871  97.873  0.00  0.00    +0.004 A 
+ATOM     11  C   UNL     1      11.559  83.928  97.195  0.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1      11.737  83.736  95.825  0.00  0.00    -0.027 A 
+ATOM     18  C   UNL     1      12.688  84.487  95.133  0.00  0.00    +0.051 A 
+ENDROOT
+BRANCH  12  13
+ATOM     13  C   UNL     1      10.912  82.727  95.100  0.00  0.00    +0.083 C 
+ATOM     14  C   UNL     1      10.818  83.008  93.590  0.00  0.00    +0.029 C 
+BRANCH  13  15
+ATOM     15  N   UNL     1       9.540  82.630  95.636  0.00  0.00    -0.302 NA
+ATOM     16  C   UNL     1       8.576  83.000  94.607  0.00  0.00    +0.105 C 
+ATOM     17  C   UNL     1       9.291  81.280  96.125  0.00  0.00    +0.105 C 
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+BRANCH   8   1
+ATOM      1  O   UNL     1      14.387  86.163  95.137  0.00  0.00    -0.411 OA
+BRANCH   1   2
+ATOM      2  C   UNL     1      15.710  85.808  95.416  0.00  0.00    +0.408 C 
+ATOM      3  N   UNL     1      16.447  86.874  95.945  0.00  0.00    -0.270 N 
+ATOM      4  C   UNL     1      17.848  86.691  96.296  0.00  0.00    +0.135 C 
+ATOM      7  O   UNL     1      16.166  84.684  95.216  0.00  0.00    -0.226 OA
+BRANCH   3   5
+ATOM      5  C   UNL     1      15.899  88.206  96.176  0.00  0.00    +0.107 C 
+ATOM      6  C   UNL     1      16.134  89.086  94.962  0.00  0.00    +0.024 C 
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+ENDBRANCH   8   1
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -5.4      2.205      6.556
+REMARK  Name = C:\Users\tendu\OneDrive\Desktop\Protein\Rivastigmine.pdb
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _12
+REMARK    2  A    between atoms: _1  and  _16
+REMARK    3  A    between atoms: _3  and  _5
+REMARK    4  A    between atoms: _3  and  _10
+REMARK    5  A    between atoms: _3  and  _11
+REMARK    6  A    between atoms: _4  and  _15
+REMARK    7  A    between atoms: _4  and  _17
+REMARK    8  A    between atoms: _5  and  _6
+REMARK    9  A    between atoms: _5  and  _7
+REMARK   10  A    between atoms: _15  and  _18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      8  C   UNL     1      15.015  86.199  95.297  0.00  0.00    +0.134 A 
+ATOM      9  C   UNL     1      15.197  87.565  95.310  0.00  0.00    +0.046 A 
+ATOM     10  C   UNL     1      16.498  88.065  95.343  0.00  0.00    +0.004 A 
+ATOM     11  C   UNL     1      17.583  87.188  95.362  0.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1      17.366  85.810  95.348  0.00  0.00    -0.027 A 
+ATOM     18  C   UNL     1      16.065  85.309  95.315  0.00  0.00    +0.051 A 
+ENDROOT
+BRANCH  12  13
+ATOM     13  C   UNL     1      18.526  84.873  95.368  0.00  0.00    +0.083 C 
+ATOM     14  C   UNL     1      18.407  83.755  94.318  0.00  0.00    +0.029 C 
+BRANCH  13  15
+ATOM     15  N   UNL     1      18.720  84.244  96.689  0.00  0.00    -0.302 NA
+ATOM     16  C   UNL     1      18.798  82.795  96.544  0.00  0.00    +0.105 C 
+ATOM     17  C   UNL     1      19.923  84.771  97.321  0.00  0.00    +0.105 C 
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+BRANCH   8   1
+ATOM      1  O   UNL     1      13.710  85.698  95.264  0.00  0.00    -0.411 OA
+BRANCH   1   2
+ATOM      2  C   UNL     1      13.289  85.120  96.465  0.00  0.00    +0.408 C 
+ATOM      3  N   UNL     1      12.839  83.805  96.294  0.00  0.00    -0.270 N 
+ATOM      4  C   UNL     1      12.360  83.042  97.438  0.00  0.00    +0.135 C 
+ATOM      7  O   UNL     1      13.314  85.707  97.545  0.00  0.00    -0.226 OA
+BRANCH   3   5
+ATOM      5  C   UNL     1      12.810  83.116  95.008  0.00  0.00    +0.107 C 
+ATOM      6  C   UNL     1      11.462  83.314  94.340  0.00  0.00    +0.024 C 
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+ENDBRANCH   8   1
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.4      1.879      6.583
+REMARK  Name = C:\Users\tendu\OneDrive\Desktop\Protein\Rivastigmine.pdb
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _12
+REMARK    2  A    between atoms: _1  and  _16
+REMARK    3  A    between atoms: _3  and  _5
+REMARK    4  A    between atoms: _3  and  _10
+REMARK    5  A    between atoms: _3  and  _11
+REMARK    6  A    between atoms: _4  and  _15
+REMARK    7  A    between atoms: _4  and  _17
+REMARK    8  A    between atoms: _5  and  _6
+REMARK    9  A    between atoms: _5  and  _7
+REMARK   10  A    between atoms: _15  and  _18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      8  C   UNL     1      12.260  84.558  96.093  0.00  0.00    +0.134 A 
+ATOM      9  C   UNL     1      12.045  84.916  97.406  0.00  0.00    +0.046 A 
+ATOM     10  C   UNL     1      13.001  85.702  98.048  0.00  0.00    +0.004 A 
+ATOM     11  C   UNL     1      14.145  86.110  97.362  0.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1      14.333  85.731  96.033  0.00  0.00    -0.027 A 
+ATOM     18  C   UNL     1      13.378  84.945  95.389  0.00  0.00    +0.051 A 
+ENDROOT
+BRANCH  12  13
+ATOM     13  C   UNL     1      15.556  86.167  95.300  0.00  0.00    +0.083 C 
+ATOM     14  C   UNL     1      16.575  85.029  95.110  0.00  0.00    +0.029 C 
+BRANCH  13  15
+ATOM     15  N   UNL     1      16.242  87.292  95.964  0.00  0.00    -0.302 NA
+ATOM     16  C   UNL     1      17.645  86.960  96.185  0.00  0.00    +0.105 C 
+ATOM     17  C   UNL     1      16.111  88.501  95.161  0.00  0.00    +0.105 C 
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+BRANCH   8   1
+ATOM      1  O   UNL     1      11.301  83.769  95.449  0.00  0.00    -0.411 OA
+BRANCH   1   2
+ATOM      2  C   UNL     1      11.132  82.501  96.012  0.00  0.00    +0.408 C 
+ATOM      3  N   UNL     1       9.808  82.262  96.398  0.00  0.00    -0.270 N 
+ATOM      4  C   UNL     1       9.441  80.990  97.006  0.00  0.00    +0.135 C 
+ATOM      7  O   UNL     1      12.049  81.694  96.150  0.00  0.00    -0.226 OA
+BRANCH   3   5
+ATOM      5  C   UNL     1       8.726  83.227  96.234  0.00  0.00    +0.107 C 
+ATOM      6  C   UNL     1       8.457  83.938  97.547  0.00  0.00    +0.024 C 
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+ENDBRANCH   8   1
+TORSDOF 5
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.3      1.964      2.996
+REMARK  Name = C:\Users\tendu\OneDrive\Desktop\Protein\Rivastigmine.pdb
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _12
+REMARK    2  A    between atoms: _1  and  _16
+REMARK    3  A    between atoms: _3  and  _5
+REMARK    4  A    between atoms: _3  and  _10
+REMARK    5  A    between atoms: _3  and  _11
+REMARK    6  A    between atoms: _4  and  _15
+REMARK    7  A    between atoms: _4  and  _17
+REMARK    8  A    between atoms: _5  and  _6
+REMARK    9  A    between atoms: _5  and  _7
+REMARK   10  A    between atoms: _15  and  _18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      8  C   UNL     1      15.591  85.986  95.869  0.00  0.00    +0.134 A 
+ATOM      9  C   UNL     1      15.618  86.576  97.113  0.00  0.00    +0.046 A 
+ATOM     10  C   UNL     1      14.485  86.486  97.920  0.00  0.00    +0.004 A 
+ATOM     11  C   UNL     1      13.354  85.810  97.462  0.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1      13.357  85.223  96.197  0.00  0.00    -0.027 A 
+ATOM     18  C   UNL     1      14.491  85.312  95.389  0.00  0.00    +0.051 A 
+ENDROOT
+BRANCH  12  13
+ATOM     13  C   UNL     1      12.148  84.499  95.708  0.00  0.00    +0.083 C 
+ATOM     14  C   UNL     1      11.214  84.060  96.850  0.00  0.00    +0.029 C 
+BRANCH  13  15
+ATOM     15  N   UNL     1      12.489  83.307  94.909  0.00  0.00    -0.302 NA
+ATOM     16  C   UNL     1      12.596  82.140  95.775  0.00  0.00    +0.105 C 
+ATOM     17  C   UNL     1      11.485  83.098  93.872  0.00  0.00    +0.105 C 
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+BRANCH   8   1
+ATOM      1  O   UNL     1      16.728  86.076  95.060  0.00  0.00    -0.411 OA
+BRANCH   1   2
+ATOM      2  C   UNL     1      17.541  84.939  95.087  0.00  0.00    +0.408 C 
+ATOM      3  N   UNL     1      18.791  85.192  95.665  0.00  0.00    -0.270 N 
+ATOM      4  C   UNL     1      19.774  84.123  95.779  0.00  0.00    +0.135 C 
+ATOM      7  O   UNL     1      17.190  83.845  94.651  0.00  0.00    -0.226 OA
+BRANCH   3   5
+ATOM      5  C   UNL     1      19.202  86.495  96.177  0.00  0.00    +0.107 C 
+ATOM      6  C   UNL     1      19.315  86.450  97.689  0.00  0.00    +0.024 C 
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+ENDBRANCH   8   1
+TORSDOF 5
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.3      3.192      7.258
+REMARK  Name = C:\Users\tendu\OneDrive\Desktop\Protein\Rivastigmine.pdb
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _12
+REMARK    2  A    between atoms: _1  and  _16
+REMARK    3  A    between atoms: _3  and  _5
+REMARK    4  A    between atoms: _3  and  _10
+REMARK    5  A    between atoms: _3  and  _11
+REMARK    6  A    between atoms: _4  and  _15
+REMARK    7  A    between atoms: _4  and  _17
+REMARK    8  A    between atoms: _5  and  _6
+REMARK    9  A    between atoms: _5  and  _7
+REMARK   10  A    between atoms: _15  and  _18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      8  C   UNL     1      16.249  86.897  98.757  0.00  0.00    +0.134 A 
+ATOM      9  C   UNL     1      16.172  86.812 100.129  0.00  0.00    +0.046 A 
+ATOM     10  C   UNL     1      17.308  86.427 100.840  0.00  0.00    +0.004 A 
+ATOM     11  C   UNL     1      18.491  86.137 100.161  0.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1      18.537  86.232  98.770  0.00  0.00    -0.027 A 
+ATOM     18  C   UNL     1      17.401  86.617  98.058  0.00  0.00    +0.051 A 
+ENDROOT
+BRANCH  12  13
+ATOM     13  C   UNL     1      19.802  85.922  98.043  0.00  0.00    +0.083 C 
+ATOM     14  C   UNL     1      19.656  86.034  96.515  0.00  0.00    +0.029 C 
+BRANCH  13  15
+ATOM     15  N   UNL     1      20.318  84.575  98.357  0.00  0.00    -0.302 NA
+ATOM     16  C   UNL     1      20.218  83.717  97.183  0.00  0.00    +0.105 C 
+ATOM     17  C   UNL     1      21.697  84.665  98.822  0.00  0.00    +0.105 C 
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+BRANCH   8   1
+ATOM      1  O   UNL     1      15.109  87.283  98.045  0.00  0.00    -0.411 OA
+BRANCH   1   2
+ATOM      2  C   UNL     1      14.241  86.230  97.739  0.00  0.00    +0.408 C 
+ATOM      3  N   UNL     1      14.202  85.953  96.368  0.00  0.00    -0.270 N 
+ATOM      4  C   UNL     1      13.351  84.886  95.861  0.00  0.00    +0.135 C 
+ATOM      7  O   UNL     1      13.590  85.622  98.586  0.00  0.00    -0.226 OA
+BRANCH   3   5
+ATOM      5  C   UNL     1      14.976  86.683  95.368  0.00  0.00    +0.107 C 
+ATOM      6  C   UNL     1      16.221  85.901  94.998  0.00  0.00    +0.024 C 
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+ENDBRANCH   8   1
+TORSDOF 5
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.3      3.024      4.886
+REMARK  Name = C:\Users\tendu\OneDrive\Desktop\Protein\Rivastigmine.pdb
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _12
+REMARK    2  A    between atoms: _1  and  _16
+REMARK    3  A    between atoms: _3  and  _5
+REMARK    4  A    between atoms: _3  and  _10
+REMARK    5  A    between atoms: _3  and  _11
+REMARK    6  A    between atoms: _4  and  _15
+REMARK    7  A    between atoms: _4  and  _17
+REMARK    8  A    between atoms: _5  and  _6
+REMARK    9  A    between atoms: _5  and  _7
+REMARK   10  A    between atoms: _15  and  _18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      8  C   UNL     1      17.531  86.332  95.566  0.00  0.00    +0.134 A 
+ATOM      9  C   UNL     1      17.101  87.632  95.416  0.00  0.00    +0.046 A 
+ATOM     10  C   UNL     1      15.738  87.868  95.240  0.00  0.00    +0.004 A 
+ATOM     11  C   UNL     1      14.841  86.800  95.218  0.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1      15.308  85.495  95.372  0.00  0.00    -0.027 A 
+ATOM     18  C   UNL     1      16.671  85.257  95.549  0.00  0.00    +0.051 A 
+ENDROOT
+BRANCH  12  13
+ATOM     13  C   UNL     1      14.350  84.352  95.349  0.00  0.00    +0.083 C 
+ATOM     14  C   UNL     1      12.942  84.745  95.834  0.00  0.00    +0.029 C 
+BRANCH  13  15
+ATOM     15  N   UNL     1      14.813  83.210  96.161  0.00  0.00    -0.302 NA
+ATOM     16  C   UNL     1      13.943  83.036  97.318  0.00  0.00    +0.105 C 
+ATOM     17  C   UNL     1      14.847  82.002  95.346  0.00  0.00    +0.105 C 
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+BRANCH   8   1
+ATOM      1  O   UNL     1      18.898  86.096  95.743  0.00  0.00    -0.411 OA
+BRANCH   1   2
+ATOM      2  C   UNL     1      19.258  85.777  97.056  0.00  0.00    +0.408 C 
+ATOM      3  N   UNL     1      19.800  84.491  97.162  0.00  0.00    -0.270 N 
+ATOM      4  C   UNL     1      20.233  83.985  98.457  0.00  0.00    +0.135 C 
+ATOM      7  O   UNL     1      19.111  86.547  98.004  0.00  0.00    -0.226 OA
+BRANCH   3   5
+ATOM      5  C   UNL     1      19.967  83.583  96.033  0.00  0.00    +0.107 C 
+ATOM      6  C   UNL     1      18.973  82.442  96.128  0.00  0.00    +0.024 C 
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+ENDBRANCH   8   1
+TORSDOF 5
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -5.3     18.660     22.228
+REMARK  Name = C:\Users\tendu\OneDrive\Desktop\Protein\Rivastigmine.pdb
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _12
+REMARK    2  A    between atoms: _1  and  _16
+REMARK    3  A    between atoms: _3  and  _5
+REMARK    4  A    between atoms: _3  and  _10
+REMARK    5  A    between atoms: _3  and  _11
+REMARK    6  A    between atoms: _4  and  _15
+REMARK    7  A    between atoms: _4  and  _17
+REMARK    8  A    between atoms: _5  and  _6
+REMARK    9  A    between atoms: _5  and  _7
+REMARK   10  A    between atoms: _15  and  _18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      8  C   UNL     1      10.135 106.639  95.895  0.00  0.00    +0.134 A 
+ATOM      9  C   UNL     1       9.240 107.685  95.921  0.00  0.00    +0.046 A 
+ATOM     10  C   UNL     1       9.727 108.977  96.120  0.00  0.00    +0.004 A 
+ATOM     11  C   UNL     1      11.096 109.189  96.288  0.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1      11.977 108.108  96.257  0.00  0.00    -0.027 A 
+ATOM     18  C   UNL     1      11.491 106.816  96.058  0.00  0.00    +0.051 A 
+ENDROOT
+BRANCH  12  13
+ATOM     13  C   UNL     1      13.440 108.334  96.436  0.00  0.00    +0.083 C 
+ATOM     14  C   UNL     1      14.159 108.662  95.115  0.00  0.00    +0.029 C 
+BRANCH  13  15
+ATOM     15  N   UNL     1      14.119 107.178  97.053  0.00  0.00    -0.302 NA
+ATOM     16  C   UNL     1      15.377 106.914  96.366  0.00  0.00    +0.105 C 
+ATOM     17  C   UNL     1      14.341 107.430  98.472  0.00  0.00    +0.105 C 
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+BRANCH   8   1
+ATOM      1  O   UNL     1       9.646 105.344  95.696  0.00  0.00    -0.411 OA
+BRANCH   1   2
+ATOM      2  C   UNL     1      10.235 104.669  94.622  0.00  0.00    +0.408 C 
+ATOM      3  N   UNL     1      10.902 103.507  95.025  0.00  0.00    -0.270 N 
+ATOM      4  C   UNL     1      11.577 102.673  94.041  0.00  0.00    +0.135 C 
+ATOM      7  O   UNL     1      10.169 105.061  93.458  0.00  0.00    -0.226 OA
+BRANCH   3   5
+ATOM      5  C   UNL     1      10.978 103.051  96.409  0.00  0.00    +0.107 C 
+ATOM      6  C   UNL     1      12.364 103.307  96.968  0.00  0.00    +0.024 C 
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+ENDBRANCH   8   1
+TORSDOF 5
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -5.3     21.490     22.461
+REMARK  Name = C:\Users\tendu\OneDrive\Desktop\Protein\Rivastigmine.pdb
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _12
+REMARK    2  A    between atoms: _1  and  _16
+REMARK    3  A    between atoms: _3  and  _5
+REMARK    4  A    between atoms: _3  and  _10
+REMARK    5  A    between atoms: _3  and  _11
+REMARK    6  A    between atoms: _4  and  _15
+REMARK    7  A    between atoms: _4  and  _17
+REMARK    8  A    between atoms: _5  and  _6
+REMARK    9  A    between atoms: _5  and  _7
+REMARK   10  A    between atoms: _15  and  _18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      8  C   UNL     1      11.645 107.006  96.316  0.00  0.00    +0.134 A 
+ATOM      9  C   UNL     1      11.942 108.264  96.791  0.00  0.00    +0.046 A 
+ATOM     10  C   UNL     1      10.986 109.271  96.659  0.00  0.00    +0.004 A 
+ATOM     11  C   UNL     1       9.760 108.994  96.055  0.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1       9.489 107.709  95.583  0.00  0.00    -0.027 A 
+ATOM     18  C   UNL     1      10.444 106.701  95.716  0.00  0.00    +0.051 A 
+ENDROOT
+BRANCH  12  13
+ATOM     13  C   UNL     1       8.178 107.413  94.938  0.00  0.00    +0.083 C 
+ATOM     14  C   UNL     1       7.390 106.310  95.667  0.00  0.00    +0.029 C 
+BRANCH  13  15
+ATOM     15  N   UNL     1       8.322 107.016  93.524  0.00  0.00    -0.302 NA
+ATOM     16  C   UNL     1       7.096 106.379  93.058  0.00  0.00    +0.105 C 
+ATOM     17  C   UNL     1       8.647 108.181  92.709  0.00  0.00    +0.105 C 
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+BRANCH   8   1
+ATOM      1  O   UNL     1      12.604 105.997  96.450  0.00  0.00    -0.411 OA
+BRANCH   1   2
+ATOM      2  C   UNL     1      13.698 106.130  95.590  0.00  0.00    +0.408 C 
+ATOM      3  N   UNL     1      14.915 106.175  96.280  0.00  0.00    -0.270 N 
+ATOM      4  C   UNL     1      16.166 106.312  95.547  0.00  0.00    +0.135 C 
+ATOM      7  O   UNL     1      13.593 106.199  94.367  0.00  0.00    -0.226 OA
+BRANCH   3   5
+ATOM      5  C   UNL     1      15.030 106.095  97.732  0.00  0.00    +0.107 C 
+ATOM      6  C   UNL     1      15.227 107.481  98.317  0.00  0.00    +0.024 C 
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+ENDBRANCH   8   1
+TORSDOF 5
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -5.2     20.764     24.327
+REMARK  Name = C:\Users\tendu\OneDrive\Desktop\Protein\Rivastigmine.pdb
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _12
+REMARK    2  A    between atoms: _1  and  _16
+REMARK    3  A    between atoms: _3  and  _5
+REMARK    4  A    between atoms: _3  and  _10
+REMARK    5  A    between atoms: _3  and  _11
+REMARK    6  A    between atoms: _4  and  _15
+REMARK    7  A    between atoms: _4  and  _17
+REMARK    8  A    between atoms: _5  and  _6
+REMARK    9  A    between atoms: _5  and  _7
+REMARK   10  A    between atoms: _15  and  _18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      8  C   UNL     1      12.782 108.748  95.813  0.00  0.00    +0.134 A 
+ATOM      9  C   UNL     1      11.806 108.642  96.779  0.00  0.00    +0.046 A 
+ATOM     10  C   UNL     1      10.621 109.357  96.613  0.00  0.00    +0.004 A 
+ATOM     11  C   UNL     1      10.441 110.159  95.486  0.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1      11.449 110.246  94.525  0.00  0.00    -0.027 A 
+ATOM     18  C   UNL     1      12.635 109.531  94.690  0.00  0.00    +0.051 A 
+ENDROOT
+BRANCH  12  13
+ATOM     13  C   UNL     1      11.257 111.103  93.320  0.00  0.00    +0.083 C 
+ATOM     14  C   UNL     1      10.159 110.574  92.380  0.00  0.00    +0.029 C 
+BRANCH  13  15
+ATOM     15  N   UNL     1      12.497 111.259  92.535  0.00  0.00    -0.302 NA
+ATOM     16  C   UNL     1      12.263 110.867  91.151  0.00  0.00    +0.105 C 
+ATOM     17  C   UNL     1      12.968 112.636  92.616  0.00  0.00    +0.105 C 
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+BRANCH   8   1
+ATOM      1  O   UNL     1      13.971 108.030  95.980  0.00  0.00    -0.411 OA
+BRANCH   1   2
+ATOM      2  C   UNL     1      13.859 106.665  95.699  0.00  0.00    +0.408 C 
+ATOM      3  N   UNL     1      14.111 105.868  96.821  0.00  0.00    -0.270 N 
+ATOM      4  C   UNL     1      14.041 104.417  96.718  0.00  0.00    +0.135 C 
+ATOM      7  O   UNL     1      13.573 106.225  94.587  0.00  0.00    -0.226 OA
+BRANCH   3   5
+ATOM      5  C   UNL     1      14.454 106.399  98.136  0.00  0.00    +0.107 C 
+ATOM      6  C   UNL     1      15.937 106.223  98.400  0.00  0.00    +0.024 C 
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+ENDBRANCH   8   1
+TORSDOF 5
+ENDMDL

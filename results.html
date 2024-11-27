@@ -84,28 +84,37 @@
     </style>
     <script>
       document.addEventListener("DOMContentLoaded", () => {
-        // Retrieve the selected ligand from localStorage
         const selectedLigand = localStorage.getItem("selectedLigand");
-
-        // Define content for each ligand
         const ligandData = {
           ligand1: {
-            image: "docking_img.png",
-            analysis: "dock_analysis.jpg",
+            image: "Demo/Ligand1/dock_img1.png",
+            analysis: "Demo/Ligand1/dock_analysis.jpg",
             description: "Docking results for Troriluzole Ligand.",
-            pdbFile: "output1.pdb",
+            pdbFile: "Demo/Ligand1/out.pdb",
           },
           ligand2: {
-            image: "ligand2_docked.jpg",
-            analysis: "ligand2_analysis.jpg",
+            image: "Demo/Ligand2/dock_img.png",
+            analysis: "Demo/Ligand2/ligand2_analysis.png",
             description: "Docking results for Ligand 2.",
-            pdbFile: "ligand2.pdb",
+            pdbFile: "Demo/Ligand2/out.pdb",
           },
           ligand3: {
-            image: "ligand3_docked.jpg",
-            analysis: "ligand3_analysis.jpg",
+            image: "Demo/Ligand3/dock_img3.png",
+            analysis: "Demo/Ligand3/ligand3_analysis.png",
             description: "Docking results for Ligand 3.",
-            pdbFile: "ligand3.pdb",
+            pdbFile: "Demo/Ligand3/out.pdb",
+          },
+          ligand4: {
+            image: "Demo/Ligand4/dock_img4.png",
+            analysis: "Demo/Ligand4/ligand4_analysis.png",
+            description: "Docking results for Ligand 3.",
+            pdbFile: "Demo/Ligand4/out.pdb",
+          },
+          ligand5: {
+            image: "Demo/Ligand5/dock_img5.png",
+            analysis: "Demo/Ligand5/ligand5_analysis.png",
+            description: "Docking results for Ligand 3.",
+            pdbFile: "Demo/Ligand5/out.pdb",
           },
         };
 

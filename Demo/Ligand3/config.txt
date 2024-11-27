@@ -1,0 +1,13 @@
+receptor= 5hox_Protien.pdbqt
+ligand = ligand2.pdbqt
+
+center_x= 14.750136
+center_y= 99.417847
+center_z= 93.228966
+
+size_x= 40
+size_y= 40
+size_z= 40
+
+energy_range= 4
+exhaustiveness= 8
