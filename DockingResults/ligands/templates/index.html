@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protein-Ligand Docking</title>
+    {% load static %}
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url("{% static 'home/bg4.jpg' %}");
+      }
+
+      .container {
+        text-align: center;
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        width: 300px;
+      }
+
+      h1 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      input,
+      select,
+      button {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1em;
+      }
+
+      button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+    <script>
+      function submitForm() {
+        const ligand = document.getElementById("ligand").value;
+
+        // Store the selected ligand in localStorage for use on the results page
+        localStorage.setItem("selectedLigand", ligand);
+
+        // Redirect to the results page
+        window.location.href = "results.html";
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Landing Page -->
+    <div class="container">
+      <h1>Protein-Ligand Docking Tool</h1>
+      <form method="get" action="{% url 'results' %}">
+        <label for="protein">Protein Name:</label>
+        <input
+          type="text"
+          id="protein"
+          name="protein"
+          value="Amyloid Beta"
+          readonly
+        />
+
+        <label for="ligand">Choose a Ligand:</label>
+        <select id="ligand" name="ligand" required>
+          <option value="" disabled selected>Select a ligand</option>
+          <option value="ligand1">Troriluzole</option>
+          <option value="ligand2">Donepezil</option>
+          <option value="ligand3">Galanathamine</option>
+          <option value="ligand4">Memantine</option>
+          <option value="ligand5">Rivastigmine</option>
+        </select>
+
+        <button type="submit">Docking</button>
+      </form>
+    </div>
+  </body>
+</html>

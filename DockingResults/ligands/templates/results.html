@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Docking Results</title>
+    {%load static%}
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #e9ecef;
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(to bottom right, #6a11cb, #2575fc);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        overflow-x: hidden;
+        background-image: url("{% static 'home/bg4.jpg' %}");
+      }
+
+      .container {
+        text-align: center;
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        width: 90%;
+        max-width: 600px;
+        margin: 20px;
+        animation: fadeIn 0.8s ease-in-out;
+      }
+
+      /* Header */
+      h1 {
+        font-size: 2em;
+        color: #333;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-bottom: 2px solid #6a11cb;
+        display: inline-block;
+        padding-bottom: 5px;
+      }
+
+      p {
+        font-size: 1.1em;
+        color: #555;
+        margin: 15px 0;
+        line-height: 1.6;
+      }
+
+      /* Images */
+      .image-container {
+        margin: 25px 0;
+      }
+
+      .image {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+        transition: transform 0.3s ease-in-out;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* Simulations Button */
+      .simulations-btn {
+        display: inline-block;
+        margin-top: 20px;
+        text-decoration: none;
+        color: white;
+        background-color: #007bff;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .simulations-btn:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Docking Results</h1>
+      <p id="description">{{ ligand.description }}</p>
+
+      <div class="image-container">
+        <img
+          id="dockingImage"
+          class="image"
+          src="{{ ligand.image.url }}"
+          alt="Docked Protein"
+        />
+      </div>
+
+      <!-- Ligand Image -->
+      <div class="image-container">
+        <img
+          id="ligandImage"
+          class="image"
+          src="{{ ligand.analysis.url }}"
+          alt="Ligand Image"
+        />
+      </div>
+
+      <!-- Simulations Button -->
+      <a href="{% url 'simulations' %}" class="simulations-btn">Simulations</a>
+    </div>
+  </body>
+</html>
